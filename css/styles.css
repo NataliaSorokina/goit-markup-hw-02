@@ -1,7 +1,86 @@
-.site-nav a {
-  color: #212121;
+/*основной цвет текста #757575;*/
+/*вторичный цвет текста #212121;*/
+/*акцент (логотип, hover nav, e-mail, button(background)): #2196F3;*/
+/*Наша команда(background) и button (основной цвет background) в portfolio.html #F5F4FA;*/
+/*логотип второй цвет #000000;*/
+/*герой background, футер background: #2F303A;*/
+/*e-mail и телефон в футере: rgba(255, 255, 255, 0.6);*/
+/*белый h1,button #FFFFFF;*/
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --team-color: #f5f4fa;
+  --background-color: #2f303a;
+  --contacts-color: rgba(255, 255, 255, 0.6);
+  --light-color: #ffffff;
+  --logo-color: #000000;
 }
 
-.site-nav a:hover {
-  color: #2196f3;
+body {
+  font-family: Roboto;
+  color: var(--primary-text-color);
+  background: var(--light-color);
+}
+
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+
+.logo {
+  color: var(--accent-color);
+}
+.logo-half {
+  color: var(--logo-color);
+}
+
+.site-nav-link {
+  color: var(--title-text-color);
+}
+
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--accent-color);
+}
+
+.header-list-link {
+  color: var(--primary-text-color);
+}
+
+.header-list-link:hover {
+  color: var(--accent-color);
+}
+
+.hero {
+  background-color: var(--background-color);
+}
+
+.hero-title {
+  color: var(--light-color);
+}
+
+.button {
+  color: var(--light-color);
+  background-color: var(--accent-color);
+}
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+.footer {
+  background-color: var(--background-color);
+}
+
+.logo-var {
+  color: var(--light-color);
+}
+
+.footer-list-link-contact {
+  color: var(--contacts-color);
+}
+
+.footer-list-link {
+  color: var(--light-color);
 }
