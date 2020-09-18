@@ -62,6 +62,10 @@ body {
   color: var(--accent-color);
 }
 
+.current {
+  color: var(--accent-color);
+}
+
 .contacts-list-link {
   color: var(--primary-text-color);
   font-weight: 500;
